@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="592553666328098"
+    token="2610333275540876028"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="107" />
+    <task
+        name="instant-run-dex"
+        duration="522" />
+    <task
+        name="instant-run-transform"
+        duration="24" />
+    <task
+        name="verifier"
+        duration="3" />
+
+    <artifact
+        location="D:\workSpace\android\Github-Code\AnimationMenu\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="589242027774057"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\workSpace\android\Github-Code\AnimationMenu\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="592465480128174"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\workSpace\android\Github-Code\AnimationMenu\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="592533069553860"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\workSpace\android\Github-Code\AnimationMenu\app\build\intermediates\builds\debug\592533069553860\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="592553666328098"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\workSpace\android\Github-Code\AnimationMenu\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

@@ -1,4 +1,4 @@
-#Mon Dec 05 10:48:22 GMT+08:00 2016
+#Mon Dec 05 12:03:48 GMT+08:00 2016
 base.0=D\:\\workSpace\\android\\Github-Code\\AnimationMenu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_d19673740fc3a57fc3f495d82605f584b7e50ee7
 renamed.1=classes2.dex
 renamed.0=classes.dex

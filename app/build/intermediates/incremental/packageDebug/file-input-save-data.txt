@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Dec 05 10:48:22 GMT+08:00 2016
+#Mon Dec 05 12:03:48 GMT+08:00 2016
 122.file=D\:\\workSpace\\android\\Github-Code\\AnimationMenu\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png
 60.set=ANDROID_RESOURCE
 129.file=D\:\\workSpace\\android\\Github-Code\\AnimationMenu\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_btn_radio_material.xml

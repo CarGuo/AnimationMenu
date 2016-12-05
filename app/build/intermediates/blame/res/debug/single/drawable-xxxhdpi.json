@@ -32,12 +32,12 @@
         "source": "D:\\workSpace\\android\\Github-Code\\AnimationMenu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xxxhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\workSpace\\android\\Github-Code\\AnimationMenu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "D:\\workSpace\\android\\Github-Code\\AnimationMenu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xxxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\workSpace\\android\\Github-Code\\AnimationMenu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\abc_ic_menu_cut_mtrl_alpha.png",
         "source": "D:\\workSpace\\android\\Github-Code\\AnimationMenu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xxxhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\workSpace\\android\\Github-Code\\AnimationMenu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "D:\\workSpace\\android\\Github-Code\\AnimationMenu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xxxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
         "merged": "D:\\workSpace\\android\\Github-Code\\AnimationMenu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png",

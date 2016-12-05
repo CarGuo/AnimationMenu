@@ -160,6 +160,9 @@ public class MenuBar extends RelativeLayout implements View.OnClickListener {
                 @Override
                 public void onSpringUpdate(Spring spring) {
                     view.setTranslationY((float) spring.getCurrentValue());
+                    float scale = (1 + 2 * (float) spring.getCurrentValue() / mainView.getHeight());
+                    view.setScaleX(scale);
+                    view.setScaleY(scale);
                 }
             });
         }
@@ -167,9 +170,7 @@ public class MenuBar extends RelativeLayout implements View.OnClickListener {
         List<Spring> springs = springChain.getAllSprings();
 
         for (int i = 0; i < springs.size(); i++) {
-
             springs.get(i).setCurrentValue(mainView.getHeight());
-
         }
 
         springChain.setControlSpringIndex(0).getControlSpring().setEndValue(0);
@@ -191,6 +192,11 @@ public class MenuBar extends RelativeLayout implements View.OnClickListener {
                 @Override
                 public void onSpringUpdate(Spring spring) {
                     view.setTranslationY((float) spring.getCurrentValue());
+                    if (spring.getCurrentValue() > 0) {
+                        float scale = (mainView.getHeight() - 2 * (float)spring.getCurrentValue()) / mainView.getHeight();
+                        view.setScaleX(scale);
+                        view.setScaleY(scale);
+                    }
                 }
             });
         }
@@ -198,12 +204,10 @@ public class MenuBar extends RelativeLayout implements View.OnClickListener {
         List<Spring> springs = springChain.getAllSprings();
 
         for (int i = 0; i < springs.size(); i++) {
-
             springs.get(i).setCurrentValue(0);
-
         }
 
-        springChain.setControlSpringIndex(0).getControlSpring().setEndValue(mainView.getHeight());
+        springChain.setControlSpringIndex(3).getControlSpring().setEndValue(mainView.getHeight());
 
 
     }

@@ -2,6 +2,6 @@
 
 #### Gif看起来有些卡，效果还是不错的
 
-[简书教程](http://www.jianshu.com/p/82dd27f9aa96)
+## [简书教程](http://www.jianshu.com/p/82dd27f9aa96)
 
 ![](https://github.com/CarGuo/AnimationMenu/blob/master/01.gif)
